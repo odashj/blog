@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head> 
+		<link href='https://fonts.googleapis.com/css?family=Merriweather|Montserrat:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<title>MICA Graphic Design</title>
+		<meta name="viewport" content="width=device-width"/>
+	</head>
+
+	<body class="home" bgcolor="#040603" \> 
+	<div class="page">
+
+			<div class="search-field">
+
+
+			<div class="toggle search-close">
+			<button class="search-close">
+				&times;
+			</button>
+		</div>
+
+
+			<div class="type-search">
+					<input type="search" id="search" 
+					placeholder=search... name=s autocomplete="off">
+			</div>
+		</div>
+
+<div class="contribute-field">
+
+	<div class="toggle contribute-close">
+		<button class="contribute-close">
+			&times;
+		</button>
+	</div>
+
+	<form class="contribute-form">
+    	<fieldset>
+    	<h1>Contribute</h1>
+	        <div class="pure-control-group">
+	            <label for="name">Name</label>
+	            <input id="name" type="name" placeholder=" ">
+	        </div>
+
+	        <div class="pure-control-group">
+	            <label for="email">Email</label>
+	            <input id="email" type="email" placeholder=" ">
+	        </div>
+
+	        <div class="pure-control-group">
+	            <label for="description">Description</label>
+	            <textarea class="description" placeholder=" "></textarea>
+	        </div>
+			<div class="fileUpload">
+			      <form action="#type your action here" method="POST" enctype="multipart/form-data">
+    <div id="yourBtn" onclick="getFile()">Upload</div>
+    <!-- this is your file input tag, so i hide it!-->
+    <div style='height: 0px;width:0px; overflow:hidden;'><input id="upfile" type="file" value="upload"/></div>
+    <!-- here you can have file submit button or you can write a simple script to upload the file automatically-->
+    <input type="submit" value='Submit' >
+	            
+    	</fieldset>
+	</form>
+</div>
+
+
+		<div class="moveAround">
+					 <a href="content.html"><div class="imgWrap">
+				  <img src="sample_image_01.png" class="float"/>
+				  <h4 class="imgDescription"><strong>11.20</strong><br>Lorem ipsum delorum, lorem ipsum delorum
+				  </h4></div></a>
+				</div>
+			
+			</div>
+
+			<div class="moveAround">
+					 <a href="content.html"><div class="imgWrap">
+				  <img src="sample_image_01.png" class="float"/>
+				  <h4 class="imgDescription"><strong>11.20</strong><br>Lorem ipsum delorum, lorem ipsum delorum
+				  </h4></div></a>
+				</div>
+
+			</div>
+	<div class="moveAround">
+					 <a href="content.html"><div class="imgWrap">
+				  <img src="sample_image_01.png" class="float"/>
+				  <h4 class="imgDescription"><strong>11.20</strong><br>Lorem ipsum delorum, lorem ipsum delorum
+				  </h4></div></a>
+				</div>
+
+			</div>
+
+	<div class="moveAround">
+					 <a href="content.html"><div class="imgWrap">
+				  <img src="sample_image_01.png" class="float"/>
+				  <h4 class="imgDescription"><strong>11.20</strong><br>Lorem ipsum delorum, lorem ipsum delorum
+				  </h4></div></a>
+				</div>
+
+			</div>
+
+					<div class="moveAround">
+					 <a href="content.html"><div class="imgWrap">
+				  <img src="sample_image_01.png" class="float"/>
+				  <h4 class="imgDescription"><strong>11.20</strong><br>Lorem ipsum delorum, lorem ipsum delorum
+				  </h4></div></a>
+				</div>
+
+			</div>
+		
+
+			<div class="home-nav">
+							<div class="title">
+					<h2><strong>MICA Graphic Design Test</strong><br><a href="archive.html">Archive</a>.<a href="calendar.html">Calendar</a>.<a href="resources.html">Resources</a>.<br><button class="home-contribute"><a href="#">Contribute</a></button>.<a href="https://twitter.com/MICA_GD">Twitter</a>.<a href="http://micagraphicdesign.tumblr.com/">Tumblr</a>.<br><a href="https://vimeo.com/micagd">Vimeo</a>.<a href="http://portfolios.mica.edu/search?mica_major=797&field=&content=projects&sort=&time=week">Behance</a>.<a href="https://www.flickr.com/groups/gdmica">Flickr</a>.<br><a href="http://micadesign.org/">GD MFA</a>.<a href="http://micagraphicdesignpb.org/">Post Bac GD</a>.<a href="mailto:bhorne@mica.edu?Subject=hey%20there%20MICA%20GD" target="_blank">Contact</a>.<br><a href="http://mica.edu">MICA.edu</a>.<button class="home-search"><a href="#">Search</a></button></h2>
+						
+					</div>
+			</div>
+
+			<div class="toggle home">	
+				<button class="home">
+					&times;
+				</button>
+			</div>
+		</div>
+	</div>
+
+
+	</body>
+
+	</html>
+
+	<script>
+$(document).ready(function(){
+	// var ranp = makeNewPosition();
+	// $('.moveAround').eq(0).css({'top': ranp[0], 'left': ranp[1]})
+	setupDiv();
+    animateDiv();
+    
+});
+
+function makeNewPosition(){
+    
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $(window).height() - 50;
+    var w = $(window).width() - 50;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(){
+    
+    $('.moveAround').each(function(index,elem){ 
+    var newq = makeNewPosition();
+    var oldq = $(elem).offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+     $(elem).animate({ top: newq[0], left: newq[1] }, speed, function(){
+      animateDiv();        
+    });
+
+    })
+    
+};
+
+function setupDiv(){
+    
+    $('.moveAround').each(function(index,elem){ 
+    var newq = makeNewPosition();
+    var oldq = $(elem).offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+	$(elem).css({'top': newq[0], 'left': newq[1]})
+
+    })
+    
+   
+    
+};
+
+function calcSpeed(prev, next) {
+    
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+    
+    var greatest = x > y ? x : y;
+    
+    var speedModifier = 0.1;
+
+    var speed = Math.ceil(greatest/speedModifier);
+
+    return speed;
+
+}
+
+</script>
+
+
+
+
+<script>
+
+$(document).ready(function(){
+    $("button.home").click(function(){
+        $(".home-nav").toggle();
+    });
+});
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+    $("button.home-search").click(function(){
+        $(".search-field").toggle();
+    });
+});
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+    $("button.search-close").click(function(){
+        $(".search-field").toggle();
+    });
+});
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+    $("button.home-contribute").click(function(){
+        $(".contribute-field").toggle();
+    });
+});
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+    $("button.contribute-close").click(function(){
+        $(".contribute-field").toggle();
+    });
+});
+
+</script>
+
+<script type="text/javascript">
+	
+	   function getFile(){
+        document.getElementById("upfile").click();
+    }
+</script>
+
+
+

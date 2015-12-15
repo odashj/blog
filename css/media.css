@@ -1,0 +1,29 @@
+<header>
+ <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+</header>
+
+
+@media screen and (max-width: 899px) {
+.blank {
+
+}
+}
+
+
+
+@media screen and (max-width: 900px) {
+nav {
+	display: none;
+	}
+}
+
+@media screen and (max-width: 900px) {
+.title {
+		padding-top: 3.5vw;
+}
+}
+
+
+
+

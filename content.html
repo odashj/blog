@@ -5,6 +5,7 @@
 	<head> 
 		<link href='https://fonts.googleapis.com/css?family=Merriweather|Montserrat:700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/media.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 		<title>MICA Graphic Design</title>
@@ -34,6 +35,28 @@
     <li><button class="search"><a href="#">Search</a></button></li>
   </ul>
 </nav>
+
+<div class="mobile-nav">
+     <div class="menu-btn" id="menu-btn" style="float: right;">
+	<div></div>
+	<span></span>
+	<span></span>
+	<span></span>
+     </div>
+
+     <div class="responsive-menu">
+        <ul>
+           <li><a href="index.html">MICA GD</a></li>
+		    <li><a href="archive.html">Archive</a></li>
+		    <li><a href="calendar.html">Calendar</a></li>
+		    <li><a href="resources.html">Resources</a></li>
+		    <li><button class="contribute-mobile"><a href="#">Contribute</a></li></button>
+		    <li><button class="search-mobile"><a href="#">Search</a></li></button>
+
+        </ul>
+     </div>
+</div>
+
 
 <div class="contribute-field">
 
@@ -123,6 +146,16 @@ $(document).ready(function(){
 <script>
 
 $(document).ready(function(){
+    $("button.search-mobile").click(function(){
+        $(".search-field").toggle();
+    });
+});
+
+</script>
+
+<script>
+
+$(document).ready(function(){
     $("button.search-close").click(function(){
         $(".search-field").toggle();
     });
@@ -143,9 +176,38 @@ $(document).ready(function(){
 <script>
 
 $(document).ready(function(){
+    $("button.contribute-mobile").click(function(){
+        $(".contribute-field").toggle();
+    });
+});
+
+</script>
+
+<script>
+
+$(document).ready(function(){
     $("button.contribute-close").click(function(){
         $(".contribute-field").toggle();
     });
 });
 
+</script>
+
+<script>
+
+$(document).ready(function(){
+    $("button.contribute-close").click(function(){
+        $(".contribute-field").toggle();
+    });
+});
+
+</script>
+
+
+ <script type="text/javascript">
+	jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
 </script>

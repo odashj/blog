@@ -241,9 +241,9 @@ img.addl {
 @media screen and (max-width: 900px) {
 	.imgDescriptionArch-Mobile {
 		position: absolute;
-		margin-top: -26.4vw;
+		margin-top: -65vw;
 		background: rgba(0,0,0,.6);
-		height: 20vw;
+		height: auto;
 		width: 86vw;
 		z-index: 1000;
 		visibility: visible;

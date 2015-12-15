@@ -204,16 +204,14 @@ img.addl {
 
 @media screen and (max-width: 900px) {
 	.imgWrapArch:hover .imgDescriptionArch {
-	  	visibility: visible;
-	  	opacity: 1;
+	  display: none;
 	}
 }
 
 @media screen and (max-width: 900px) {
 	h4.imgDescriptionArch {
-		padding-top:1.6vw;
-		padding-left:1.5vw;
-		width: 100px;
+	  display: none;
+
 	}
 }
 
@@ -221,13 +219,8 @@ img.addl {
 
 @media screen and (max-width: 900px) {
 	.imgDescriptionArch {
-	  	position: absolute;
-		top: -3.9vw;
-		background: #73c3b4;
-		visibility: hidden;
-		opacity: 0;
-		height: 19.3vw;
-		width: 26.7vw;
+	  display: none;
+
 	}
 }
 
@@ -238,4 +231,38 @@ img.addl {
 
 	}
 }
+
+@media screen and (max-width: 900px) {
+	h2.imgDescriptionArch-mobile {
+	width: 80%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.imgDescriptionArch-Mobile {
+		position: absolute;
+		margin-top: -26.4vw;
+		background: rgba(0,0,0,.6);
+		height: 20vw;
+		width: 86vw;
+		z-index: 1000;
+		visibility: visible;
+  		opacity: 1;
+  		padding: 3vw;
+	}
+}
+
+
+@media screen and (min-width: 901px) {
+	h2.imgDescriptionArch-mobile {
+	display: none;
+	}
+}
+
+@media screen and (min-width: 901px) {
+	.imgDescriptionArch-Mobile {
+		display: none;
+	}
+}
+
 

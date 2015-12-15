@@ -1043,7 +1043,8 @@ button.contribute-mobile a {
 	text-transform: uppercase;
 	outline: none;
 	line-height: 12px;
-	
+}
+
 button.search-mobile {
 	background: none;
     border: none;
@@ -1061,7 +1062,7 @@ button.search-mobile {
 	margin-right: -8px;
 }
 
-button.contribute-mobile {
+button.contribute-mobile a {
 	background: none;
     border: none;
     text-decoration: none;
@@ -1077,7 +1078,7 @@ button.contribute-mobile {
 	line-height: 12px;
 	margin-right: -8px;
 }
-}
+
 
 
 

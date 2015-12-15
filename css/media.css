@@ -171,12 +171,21 @@ p {
 
 @media screen and (max-width: 900px) {
 img.addl {
-	width: 75%;
+	width: 90%;
 	height: auto;
-	margin-left: 12%;
+	margin-left: 5%;
 	padding-bottom: 5px;
 
 }
 }
 
+@media screen and (max-width: 900px) {
+.text {
+	padding-top: 2vw;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2vw;
+}
+}
 

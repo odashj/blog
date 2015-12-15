@@ -958,7 +958,7 @@ button.search-mobile {
 	text-transform: uppercase;
 	outline: none;
 	line-height: 12px;
-	margin-right: -8.5px;
+	margin-right: -2px;
 }
 
 button.contribute-mobile {
@@ -975,7 +975,7 @@ button.contribute-mobile {
 	text-transform: uppercase;
 	outline: none;
 	line-height: 12px;
-	margin-right: -8.5px;
+		margin-right: -2px;
 }
 
 
@@ -993,40 +993,7 @@ button.search-mobile a {
 	text-transform: uppercase;
 	outline: none;
 	line-height: 12px;
-
-button.search-mobile {
-	background: none;
-    border: none;
-    text-decoration: none;
-    display: inline-block;
-	color: #73c3b4;
-		text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	outline: none;
-	line-height: 12px;
-	margin-right: -8px;
-}
-
-button.contribute-mobile {
-	background: none;
-    border: none;
-    text-decoration: none;
-    display: inline-block;
-	color: #73c3b4;
-		text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	outline: none;
-	line-height: 12px;
-	margin-right: -8px;
-}
+		margin-right: -2px;
 }
 
 button.contribute-mobile a {
@@ -1043,43 +1010,7 @@ button.contribute-mobile a {
 	text-transform: uppercase;
 	outline: none;
 	line-height: 12px;
+		margin-right: -2px;
 }
-
-button.search-mobile {
-	background: none;
-    border: none;
-    text-decoration: none;
-    display: inline-block;
-	color: #73c3b4;
-		text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	outline: none;
-	line-height: 12px;
-	margin-right: -8px;
-}
-
-button.contribute-mobile a {
-	background: none;
-    border: none;
-    text-decoration: none;
-    display: inline-block;
-	color: #73c3b4;
-		text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	outline: none;
-	line-height: 12px;
-	margin-right: -8px;
-}
-
-
-
 
 

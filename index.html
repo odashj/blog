@@ -122,7 +122,7 @@
 					</div>
 
 					<div class="title-home-mobile">
-					<h2><strong>MICA Graphic Design.</strong><br><a href="archive.html">Archive</a> <a href="calendar.html">Calendar</a> <a href="resources.html">Resources</a> <button class="home-contribute-mobile"><a href="#">Contribute</a> </button><a href="https://twitter.com/MICA_GD">Twitter</a> <a href="http://micagraphicdesign.tumblr.com/">Tumblr</a> <a href="https://vimeo.com/micagd">Vimeo</a> <a href="http://portfolios.mica.edu/search?mica_major=797&field=&content=projects&sort=&time=week">Behance</a>.<a href="https://www.flickr.com/groups/gdmica">Flickr</a> <a href="http://micadesign.org/">GD MFA</a> <a href="http://micagraphicdesignpb.org/">Post Bac GD</a> <a href="mailto:bhorne@mica.edu?Subject=hey%20there%20MICA%20GD" target="_blank">Contact</a> <a href="http://mica.edu">MICA.edu</a> <button class="home-search-mobile"><a href="#">Search</a> </button></h2>
+					<h2><strong>MICA Graphic Design.</strong><br><a href="archive.html">Archive</a> <a href="calendar.html">Calendar</a> <a href="resources.html">Resources</a> <a href="https://twitter.com/MICA_GD">Twitter</a> <a href="http://micagraphicdesign.tumblr.com/">Tumblr</a> <a href="https://vimeo.com/micagd">Vimeo</a> <a href="http://portfolios.mica.edu/search?mica_major=797&field=&content=projects&sort=&time=week">Behance</a> <a href="https://www.flickr.com/groups/gdmica">Flickr</a> <a href="http://micadesign.org/">GD MFA</a> <a href="http://micagraphicdesignpb.org/">Post Bac GD</a> <a href="mailto:bhorne@mica.edu?Subject=hey%20there%20MICA%20GD" target="_blank">Contact</a> <a href="http://mica.edu">MICA.edu</a> <button class="home-search-mobile"><a href="#">Search</a> </button></h2>
 						
 					</div>
 			</div>
@@ -226,6 +226,16 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("button.home-search").click(function(){
+        $(".search-field").toggle();
+    });
+});
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+    $("button.home-search-mobile").click(function(){
         $(".search-field").toggle();
     });
 });

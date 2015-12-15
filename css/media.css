@@ -333,3 +333,18 @@ button.home-contribute-mobile {
 	padding: 0;
 }
 }
+
+@media screen and (max-width: 800px) {
+button.home {
+	background: none;
+    border: none;
+    color: #73c3b4;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 7vw;
+        -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    outline: none;
+}
+}

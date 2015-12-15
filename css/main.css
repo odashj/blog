@@ -206,14 +206,14 @@ nav ul li a:hover {
 	position: absolute;
 }
 
+	.home-nav{
 
-.home-nav{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.4);
+	}
 
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-}
 
 a {
 	color: #73c3b4;
@@ -230,6 +230,15 @@ border-bottom: .05em solid #ffffff;
 
 @media screen and (min-width: 801px) {
 	.title {
+		margin-left: 2em;
+		position: relative;
+		top: 0vw;
+		padding-bottom: 0vw;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	.title-home {
 		margin-left: 2em;
 		position: relative;
 		top: 0vw;

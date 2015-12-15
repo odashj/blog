@@ -142,6 +142,41 @@ button.contribute-mobile a {
 }
 }
 
+@media screen and (max-width: 900px) {
+p {
+	color: #ffffff;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 30px;
+	padding-bottom: .5vw;
+}
+}
 
+@media screen and (max-width: 900px) {
+	em{
+		color: #7dc6b6;
+		text-align: left;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 16px;
+			line-height: 30px;
+		letter-spacing: 1px;
+
+	}
+}
+
+@media screen and (max-width: 900px) {
+img.addl {
+	width: 75%;
+	height: auto;
+	margin-left: 12%;
+	padding-bottom: 5px;
+
+}
+}
 
 

@@ -189,3 +189,80 @@ img.addl {
 }
 }
 
+@media screen and (max-width: 900px) {
+	.imgWrapArch {
+	  position: relative;
+		width: 45vw;
+		height: auto;
+		margin-left: 2%;
+		display: inline-block;
+		padding-right: 5px;
+		padding-bottom: 2.5vw;
+
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.imgWrapArch:hover .imgDescriptionArch {
+	  	visibility: visible;
+	  	opacity: 1;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	h4.imgDescriptionArch {
+		padding-top:1.6vw;
+		padding-left:1.5vw;
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.imgWrapArch {
+	  position: relative;
+		width: 90vw;
+		height: auto;
+		margin-left: 3%;
+		display: inline-block;
+		padding-bottom: 2.5vw;
+
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.imgDescriptionArch {
+	  	position: absolute;
+		top: -3.9vw;
+		background: #73c3b4;
+		visibility: hidden;
+		opacity: 0;
+		height: 19.3vw;
+		width: 26.7vw;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.imgWrapArch:hover .imgDescriptionArch {
+	  	visibility: visible;
+	  	opacity: 1;
+	  		width: 27.7vw;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	h4.imgDescriptionArch {
+		padding-top:1.6vw;
+		padding-left:1.5vw;
+		width: 25.7vw;
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+	img.arch {
+		width: 100%;
+		height: 100%;
+
+	}
+}
+

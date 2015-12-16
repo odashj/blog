@@ -410,6 +410,7 @@ button.calendar-close {
 	padding-right: 1vw;
 	margin-left: 2.5em;
 	padding-top: 3vw;
+	overflow:hidden;
 
 }
 

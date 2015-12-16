@@ -458,7 +458,7 @@ button.search {
 	position: fixed;
 	background-color: #73c3b4;
 	width: 100vw;
-	height: 100vw;
+	height: 100%;
 	top: 0;
 	left: 0;
 	display: none;

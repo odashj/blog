@@ -348,3 +348,64 @@ button.home {
     outline: none;
 }
 }
+
+
+@media screen and (max-width: 800px) {
+	.type-search {
+		position: fixed;
+		margin-left: 25%;
+		bottom: 55%;
+		width: 40vw;
+		height: 5vw;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	input[type=search] { 	
+		margin-bottom: 100px;            /* Overridden by padding: 1px; */
+			color: #040603;
+		text-align: left;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		font-size: 4vw;
+		letter-spacing: 1px;
+		border: none;
+		border-bottom: .5px solid #ffffff;  /* Overridden by border: 2px inset; */
+		background: none;          /* Overridden by background-color: white; */
+		line-height: 3vw;  
+		outline: none;      
+		height: 7vw;   /* Irrelevant, I guess */
+	}
+}
+
+@media screen and (max-width: 800px) {
+	button.calendar-close {
+		background: none;
+	    border: none;
+	    color: #73c3b4;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 7vw;
+	        -webkit-transition-duration: 0.2s; /* Safari */
+	    transition-duration: 0.2s;
+	    outline: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+		button.search-close {
+		z-index: 7500;
+		background: none;
+	    border: none;
+	    color: #ffffff;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 7vw;
+	    -webkit-transition-duration: 0.2s; /* Safari */
+	    transition-duration: 0.2s;
+	    outline: none;
+
+	}
+}

@@ -82,6 +82,7 @@ button.search-mobile {
 	outline: none;
 	line-height: 12px;
 	margin-right: -2px;
+	padding: none;
 }
 }
 
@@ -120,6 +121,7 @@ button.search-mobile a {
 	outline: none;
 	line-height: 12px;
 		margin-right: -3px;
+		padding: none;
 }
 }
 

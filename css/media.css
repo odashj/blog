@@ -415,7 +415,7 @@ button.home {
 @media screen and (max-width: 800px) {
 	.calendar-info {
 		z-index: 6000;
-		margin-top: -10px;
+		margin-top: -7px;
 		position: fixed;
 		height: 100%;
 		background-color: #040603;
@@ -433,7 +433,7 @@ button.home {
 @media screen and (max-width: 800px) {
 	.bg-image .img-responsive {
 	position: relative;
-	width: 200%;
+	width: 330%;
 	}
 }
 

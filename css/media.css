@@ -353,7 +353,7 @@ button.home {
 @media screen and (max-width: 800px) {
 	.type-search {
 		position: fixed;
-		margin-left: 25%;
+		margin-left: 20%;
 		bottom: 55%;
 		width: 40vw;
 		height: 5vw;
@@ -375,6 +375,8 @@ button.home {
 		line-height: 3vw;  
 		outline: none;      
 		height: 7vw;   /* Irrelevant, I guess */
+		    -webkit-appearance: none;
+    border-radius: 0;
 	}
 }
 

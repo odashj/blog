@@ -155,6 +155,18 @@ p {
 	padding-bottom: .5vw;
 }
 }
+@media screen and (max-width: 900px) {
+p a{
+	color: #ffffff;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 3vw;
+	padding-bottom: .5vw;
+	text-decoration: underline;
+}
+}
 
 @media screen and (max-width: 900px) {
 	em{
@@ -441,7 +453,7 @@ button.home {
 
 @media screen and (max-width: 800px) {
 	.event-info {
-	width: 96.5%;
+	width: 90%;
 	margin-left: 5%;
 	bottom: 30%;
 	}

@@ -519,8 +519,7 @@ button.search-close {
 	background: #73c3b4;
 	visibility: hidden;
 	opacity: 0;
-	height: 19.3vw;
-	width: 26.7vw;
+	height: 19.6vw;
 
 }
 
@@ -528,7 +527,7 @@ button.search-close {
 .imgWrapArch:hover .imgDescriptionArch {
   	visibility: visible;
   	opacity: 1;
-  		width: 27.7vw;
+  		width: 28vw;
 
 }
 

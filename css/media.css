@@ -21,6 +21,8 @@ nav {
 @media screen and (max-width: 900px) {
 .title {
 		padding-top: 1vw;
+				width: 90vw;
+
 }
 }
 

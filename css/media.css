@@ -388,7 +388,7 @@ button.home {
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 7vw;
+	    font-size: 8vw;
 	        -webkit-transition-duration: 0.2s; /* Safari */
 	    transition-duration: 0.2s;
 	    outline: none;
@@ -404,10 +404,56 @@ button.home {
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 7vw;
+	    font-size: 8vw;
 	    -webkit-transition-duration: 0.2s; /* Safari */
 	    transition-duration: 0.2s;
 	    outline: none;
 
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.calendar-info {
+		z-index: 6000;
+		margin-top: -10px;
+		position: fixed;
+		height: 100%;
+		background-color: #040603;
+
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.bg-image {
+	position: relative;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.bg-image .img-responsive {
+	position: relative;
+	width: 200%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.event-info {
+	width: 96.5%;
+	margin-left: 5%;
+	bottom: 30%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.event-info h2 {
+			color: #73c3b4;
+	text-align: left;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 8.5vw;
+	letter-spacing: 1px;
+	line-height: 12vw;
 	}
 }

@@ -23,7 +23,7 @@ h1{
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 
 }
@@ -34,7 +34,7 @@ h2{
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 }
 
@@ -70,7 +70,7 @@ h5{
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 	line-height: .01em;
 }
@@ -81,7 +81,7 @@ h6{
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 	line-height: .01em;
 }
@@ -333,7 +333,7 @@ button.home {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 3.5vw;
+    font-size: 4vw;
         -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
     outline: none;
@@ -349,7 +349,7 @@ button.calendar {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 	outline: none;
 }
@@ -433,7 +433,7 @@ button.home-search {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 	outline: none;
 }
@@ -621,7 +621,7 @@ button.home-contribute {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 	outline: none;
 }
@@ -741,7 +741,7 @@ input[type=email] {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 		height: 5.7vw;
 
@@ -754,7 +754,7 @@ input[type=name] {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 		height: 5.7vw;
 
@@ -773,7 +773,7 @@ textarea {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 	height: 5.5vw;
 	 padding-bottom: -2vw;
@@ -795,7 +795,7 @@ label {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 }
 
@@ -805,7 +805,7 @@ label {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
 
 }
@@ -822,7 +822,7 @@ input[type='file'] {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
     margin-top: 3vw;
    width: 22vw;
@@ -849,7 +849,7 @@ input[type=submit] {
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5.8vw;
+	font-size: 5.6vw;
 	letter-spacing: 1px;
     margin-top: 3vw;
    width: 24vw;

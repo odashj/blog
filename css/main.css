@@ -209,6 +209,11 @@ nav ul li a:hover {
     color: #FFFFFF;
 }
 
+img .logo{
+	max-width: 100px;
+	height: auto;
+}
+
 /* Index */
 
 #container{
@@ -725,7 +730,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 form .contribute-form {
-
+    overflow: auto;
 }
 
 fieldset {
@@ -735,6 +740,8 @@ fieldset {
 	padding-right: 1vw;
 	margin-left: 2.5em;
 	padding-top: 0vw;
+	overflow: scroll;
+	height: 1000px;
 
 }
 
@@ -810,6 +817,7 @@ textarea {
 	background-color: #73c3b4;
 	display: none;
 	overflow: scroll;
+	height: 100%;
 }
 
 label {
